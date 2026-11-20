@@ -10,7 +10,7 @@ function carregar(hash, opcoes = {}) {
   const vc = new VirtualConsole(); vc.on("jsdomError", (e) => erros.push(String(e.message || e))); vc.on("error", (e) => erros.push(String(e)));
   const dom = new JSDOM(html, { runScripts: "outside-only", url: "http://localhost/" + (hash ? "#" + hash : ""), pretendToBeVisual: true, virtualConsole: vc });
   const w = dom.window;
-  w.scrollTo = () => {};
+  w.scrollTo = () => {}; w.HTMLCanvasElement.prototype.getContext = () => null;
   w.open = (...a) => { (w.__abertas ||= []).push(a); return null; };
   w.fetch = (...a) => { (w.__fetches ||= []).push(a); return Promise.resolve({}); };
   if (opcoes.antes) opcoes.antes(w);

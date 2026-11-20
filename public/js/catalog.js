@@ -4,6 +4,7 @@ A.headphones=A.fones;A.microfone='<rect x="46" y="14" width="28" height="52" rx=
 A.teclados='<rect x="14" y="36" width="92" height="52" rx="8"/><path d="M28 52h6M42 52h6M56 52h6M70 52h6M84 52h6M32 70h56"/>';
 A.hub='<rect x="20" y="52" width="80" height="34" rx="8"/><path d="M36 52V36M60 52V28M84 52V36M32 70h8M52 70h8M72 70h8"/>';
 A.outros='<rect x="32" y="16" width="56" height="88" rx="14"/><circle cx="60" cy="40" r="8"/><circle cx="60" cy="74" r="14"/>';
+const DEST_CAT=["capinhas","peliculas","carregadores","cabos","smartwatches","eletronicos","fones"]; // categorias em destaque na home (nesta ordem)
 const svg=c=>`<svg viewBox="0 0 120 120">${A[c]}</svg>`;
 /* ============ CATÁLOGO DJF (fonte única de produtos, preços e estoque) ============
  Cada produto é uma linha de P. Campos:

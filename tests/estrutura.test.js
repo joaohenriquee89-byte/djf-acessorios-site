@@ -5,7 +5,7 @@ const raiz = path.join(PUB, "..");
 const html = ler("index.html");
 
 t("arquivos essenciais existem", () => {
-  for (const f of ["index.html", "404.html", "robots.txt", "favicon.svg", "_headers", "css/styles.css", "js/config.js", "js/utils.js", "js/catalog-data.js", "js/catalog.js", "js/content.js", "js/app.js"])
+  for (const f of ["index.html", "404.html", "robots.txt", "favicon.svg", "_headers", "css/styles.css", "js/config.js", "js/utils.js", "js/catalog-data.js", "js/catalog.js", "js/content.js", "js/fluxlines.js", "js/app.js"])
     verdade(fs.existsSync(path.join(PUB, f)), "falta public/" + f);
   for (const f of ["data/catalogo.csv", "netlify.toml", "package.json", "README.md", "apps-script/leads.gs", "scripts/build-catalog.mjs"]) verdade(fs.existsSync(path.join(raiz, f)), "falta " + f);
 });
