@@ -1,0 +1,66 @@
+id;categoria;linha;nome;preco;a_partir_de;premium;entrada;novo;estoque;promocao;promocao_ate;foto_de;selo;descricao
+pel-3d;peliculas;vidro;Película de Vidro 3D;49,9;sim;;sim;;;;;;;Película de vidro 3D com alta transparência e sensibilidade ao toque.
+pel-fosca;peliculas;vidro;Película de Vidro Fosca;59,9;sim;;;;;;;;;Película de vidro com acabamento fosco, que reduz reflexos e marcas de dedo.
+pel-camera;peliculas;vidro;Protetor de Câmera HUANG iPhone 17 Pro Max;69,9;;;;;;;;;;Protetor de lentes AR+AF para iPhone 17 Pro Max, nas cores laranja e prata.
+pel-ceramics;peliculas;ceramica;Película de Cerâmica;99,9;sim;;;;;;;;;Película Film Ceramics para iPhone 16 Pro Max e 17 Pro Max, nas versões privacidade, HD e 3D.
+pel-hidrogel;peliculas;hidrogel;Película de Hidrogel;149,9;sim;sim;;;;;;;;Película de hidrogel HUANG com corte automático, disponível na versão fosca.
+pel-priv;peliculas;privacidade;Vidro 3D Privacidade;99,9;sim;;;;;;;;;Película de vidro 3D com bloqueio lateral de visão, para proteger o que é seu.
+pel-cer-priv;peliculas;privacidade;Cerâmica Privacidade;149,9;sim;sim;;;;;;pel-ceramics;;Película de cerâmica com bloqueio lateral de visão.
+pel-hid-priv;peliculas;privacidade;Hidrogel Privacidade;199,9;sim;sim;;;;;;;;Película de hidrogel com bloqueio lateral de visão.
+cp-silicone-vinho;capinhas;premium;Capa Silicone Vinho;99,9;;;;;;;;;;Capa em silicone, na cor vinho.
+cp-tecido-marrom;capinhas;premium;Capa Tecido Marrom;119,9;;;;;;;;;;Capa com acabamento em tecido, na cor marrom.
+cp-tecido-preto;capinhas;premium;Capa Tecido Preto;119,9;;;;;;;;;;Capa com acabamento em tecido, na cor preta.
+cp-tecido-grafite;capinhas;premium;Capa Tecido Grafite;119,9;;;;;;;;;;Capa com acabamento em tecido, na cor grafite.
+cp-tecido-ameixa;capinhas;premium;Capa Tecido Ameixa;119,9;;;;;;;;;;Capa com acabamento em tecido, na cor ameixa.
+cp-tecido-fosco;capinhas;premium;Capa Tecido Preto Fosco;119,9;;;;;;;;;;Capa com acabamento em tecido, na cor preta fosca.
+cp-transp-slim;capinhas;exclusiva;Capa Transparente Slim;49,9;;;sim;;;;;;;Capa transparente de perfil fino.
+cp-transp-cristal;capinhas;exclusiva;Capa Transparente Cristal;69,9;;;;;;;;;;Capa transparente com bordas reforçadas.
+cp-anel-rosa;capinhas;exclusiva;Capa com Anel Suporte Rosa;139,9;;;;;;;;;;Capa com anel suporte integrado, na cor rosa.
+cp-anel-bege;capinhas;exclusiva;Capa com Anel Suporte Bege;139,9;;;;;;;;;;Capa com anel suporte integrado, na cor bege.
+cp-anel-preta;capinhas;exclusiva;Capa com Anel Suporte Preta;139,9;;;;;;;;;;Capa com anel suporte integrado, na cor preta.
+cp-carbono-marrom;capinhas;carbono;Capa Textura Carbono Marrom;249,9;;sim;;;;;;;;Capa com textura estilo fibra de carbono, na cor marrom.
+cp-couro-verde;capinhas;couro;Capa Couro Verde;179,9;;sim;;;;;;;;Capa com acabamento em couro, na cor verde.
+cp-couro-oliva;capinhas;couro;Capa Couro Oliva;179,9;;sim;;;;;;;;Capa com acabamento em couro, na cor oliva.
+cp-couro-cinza;capinhas;couro;Capa Couro Cinza;179,9;;sim;;;;;;;;Capa com acabamento em couro, na cor cinza.
+cp-couro-musgo;capinhas;couro;Capa Couro Verde Musgo;179,9;;sim;;;;;;;;Capa com acabamento em couro, na cor verde musgo.
+cp-couro-areia;capinhas;couro;Capa Couro Areia;179,9;;sim;;;;;;;;Capa com acabamento em couro, na cor areia.
+cp-couro-caramelo;capinhas;couro;Capa Couro Caramelo;179,9;;sim;;;;;;;;Capa com acabamento em couro, na cor caramelo.
+cp-couro-azul;capinhas;couro;Capa Couro Azul;179,9;;sim;;;;;;;;Capa com acabamento em couro, na cor azul.
+cp-transp-anel;capinhas;magsafe;Capa Transparente com Anel Preto;129,9;;sim;;;;;;;;Capa compatível com MagSafe, transparente, com detalhe em anel preto.
+cp-transp-laranja;capinhas;magsafe;Capa Transparente Laranja com Anel;139,9;;sim;;;;;;;;Capa compatível com MagSafe, transparente, com detalhe em anel laranja.
+cab-micro;cabos;;Cabo Micro USB;69,9;;;sim;;;;;;;Cabo Micro USB para carga e transferência de dados.
+cab-usb;cabos;;Cabo USB;79,9;;;;;;;;;;Cabo USB para carga e transferência de dados.
+cab-lightning;cabos;;Cabo Lightning;89,9;;;;;;;;;;Cabo Lightning para carga e transferência de dados.
+cab-usbc;cabos;;Cabo USB-C;99,9;;;;;;;;cabo-nylon;;Cabo USB para USB-C de 1 metro, para carga e dados.
+cab-c-lightning;cabos;;Cabo Tipo C para Lightning;119,9;;;;;;;;cabo-nylon;;Cabo Tipo-C para Lightning de 1 metro, para carga e dados.
+cab-c-c;cabos;;Cabo Tipo C para Tipo C;149,9;;sim;;;;;;cabo-nylon;;Cabo Tipo-C para Tipo-C com carregamento PD de 60 W.
+carr-33-lt;carregadores;;Carregador Completo 33W Lightning;149,9;;;sim;;;;;;;Conjunto com carregador de 33 W e cabo Lightning.
+carr-turbo;carregadores;;Carregador Completo 33W USB-C;149,9;;;;;;;;;;Conjunto com carregador de 33 W e cabo Tipo-C.
+carr-45;carregadores;;Carregador Completo 45W USB-C para USB-C;199,9;;;;;;;;;;Conjunto com carregador de 45 W com duas saídas e cabo USB-C para USB-C.
+carr-45-lt;carregadores;;Carregador Completo 45W USB-C para Lightning;199,9;;;;;;;;;;Conjunto com carregador de 45 W e cabo USB-C para Lightning.
+sw-peje;smartwatches;;Smartwatch PEJE 1,28”;299,9;;sim;;;;;;;2 pulseiras;Smartwatch com tela de 1,28 polegada, resistência 1 ATM e até 7 dias de autonomia, com duas pulseiras.
+watch;smartwatches;;Smartwatch Active;349,9;;sim;;;;;;;;Notificações, atividades físicas e visual moderno no pulso.
+watch-series;smartwatches;;Smartwatch DJF Series;449,9;;sim;;;;;;;;Modelo circular com visual esportivo, monitoramento de saúde e tela AMOLED.
+pb-35;eletronicos;tradicional;Power Bank A’GOLD Turbo 10.000 mAh;199,9;;;;;;;;;;Power bank de 10.000 mAh com Turbo 22,5 W PD, display digital e cabo integrado.
+pb-17;eletronicos;tradicional;Power Bank A’GOLD Pro 10.000 mAh com 4 cabos;249,9;;;;;;;;;;Power bank de 10.000 mAh com carregamento sem fio e 4 cabos integrados.
+power;eletronicos;magsafe;Power Bank MagSafe Premium 5.000 mAh;349,9;;sim;;;;;;;;Bateria portátil magnética ultrafina, com encaixe preciso e carregamento sem fio Qi.
+pb-magsafe;eletronicos;magsafe;Power Bank MagSafe Premium;399,9;;sim;;;;;;;;Power bank magnético compatível com MagSafe, da linha premium.
+fone-b06b;fones;semfio;Fone Bluetooth A’GOLD Plus FN-B06B;79,9;;;sim;;;;;;;Fone de ouvido sem fio com Bluetooth 5.4, som HiFi e estojo com display digital.
+fone-bt4;fones;semfio;Fone Bluetooth A’GOLD Pro FN-BT4;99,9;;;;;;;;;Bluetooth 5.4;Fone de ouvido sem fio com Bluetooth 5.4, som HiFi e controle por toque.
+fone-ba5;fones;semfio;Fone Bluetooth A’GOLD Plus FN-BA5;129,9;;;;;;;;;;Fone de ouvido sem fio com estojo carregador e cordão.
+fone-kd794;fones;semfio;Fone OWS Kridi KD-794;149,9;;;;;;;;;OWS;Fone sem fio no formato OWS, com gancho para a orelha e estojo carregador.
+fone-nex-lt;fones;comfio;Fone de Ouvido com Fio Lightning;99,9;;;;;;;;fone-nex;;Fone de ouvido estéreo com fio e controle no cabo, com conector Lightning.
+fone-nex-c;fones;comfio;Fone de Ouvido com Fio USB-C;99,9;;;;;;;;fone-nex;;Fone de ouvido estéreo com fio e controle no cabo, com conector USB-C.
+fone-p2;fones;p2;Fone de Ouvido P2;29,9;;;sim;;;;;;;Fone de ouvido com fio e conector P2.
+fone-ka902;headphones;;Headphone Kapbom KA-902 Gatinho;149,9;;sim;;;;;;;;Headphone com orelhinhas de gato e luz de LED.
+fone-kap9;headphones;;Headphone Kapbom KA-P9;199,9;;sim;;;;;;;;Headphone over-ear com design clássico em preto.
+fone-kap-prata;headphones;;Headphone Kapbom Prata;249,9;;sim;;;;;;;;Headphone over-ear Kapbom, na cor prata.
+ger-mic;microfone;;Microfone Lapela Wireless;299;;;;;;;;;;Microfone de lapela sem fio com estojo carregador, redução de ruído ENC e suporte para dois microfones ao mesmo tempo.
+sup-spr05;suportes;;Suporte Veicular Universal H’MASTON SPR05;69,9;;;sim;;;;;;360°;Suporte veicular universal para celulares de 4 a 6,5 polegadas, com rotação de 360°.
+sup-cj72;suportes;;Suporte Veicular Universal H’MASTON CJ72;89,9;;;;;;;;;360°;Suporte veicular universal para painel do carro, com rotação de 360° e travamento automático.
+sup-k530;suportes;;Tripé Live Self Timer H’MASTON K530;99,9;;;;;;;;;;Tripé com suporte para celular, ajuste livre de ângulo e rotação de 360°.
+sup-zp21;suportes;;Tripé de Selfie H’MASTON ZP21 sem fio;129,9;;;;;;;;;1 m;Tripé de selfie sem fio com 100 cm de comprimento.
+ger-teclado;teclados;;Teclado Bluetooth;199,9;sim;;;;;;;;;Teclado sem fio Bluetooth, na cor branca.
+hub-usb;hub;;Super Hub USB com 4 portas USB 3.0;99,9;;;;;;;;;;Hub USB com 4 portas USB 3.0 para ligar vários aparelhos de uma vez.
+carr-veic;outros;veiculares;Kit Carregador Veicular A’GOLD Turbo PD 60W;99,9;;;;;;;;;60 W;Carregador veicular Turbo PD de 60 W com exibição de LED e cabo incluso.
+ger-capacete;outros;tecnologicos;Fone de Capacete Bluetooth A’GOLD MCF-36;149,9;;;;;;;;;IPX4;Fone de ouvido bluetooth para capacete, com resistência a água IPX4 e assistente de voz.

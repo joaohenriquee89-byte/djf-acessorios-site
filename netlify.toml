@@ -1,0 +1,8 @@
+# Publicação contínua: cada push na branch main roda os testes e publica a pasta public/.
+# Se algum teste falhar, o Netlify NÃO publica e o site anterior continua no ar.
+[build]
+  publish = "public"
+  command = "npm ci && npm run build:catalog && npm test"
+
+[build.environment]
+  NODE_VERSION = "20"

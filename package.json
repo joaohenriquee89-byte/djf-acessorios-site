@@ -1,0 +1,17 @@
+{
+  "name": "djf-acessorios-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site oficial DJF Acessórios (loja e vitrine de acessórios para celular)",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build:catalog": "node scripts/build-catalog.mjs",
+    "test": "node tests/run.js",
+    "serve": "node scripts/serve.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^31.0.1"
+  }
+}
