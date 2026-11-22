@@ -20,18 +20,18 @@
     "float fbm(vec2 p){float a=.5,s=0.;for(int i=0;i<4;i++){s+=a*n(p);p=p*2.03+vec2(11.7,5.3);a*=.5;}return s;}",
     "void main(){",
     " vec2 uv=vec2(gl_FragCoord.x,uR.y-gl_FragCoord.y)/uR.y;", // y para baixo, altura = 1
-    " vec2 p=uv*1.6;float t=uT;",
-    " vec2 d=uv-uM;float r=length(d);float f=exp(-r*r/(.35*.35))*uMs;", // raio .35, força 1
-    " p+=vec2(-d.y,d.x)*f*1.1+d*f*.25;",
-    " if(uK.z>=0.){vec2 dc=uv-uK.xy;float rc=length(dc);float w=exp(-pow((rc-uK.z*.55)*6.,2.))*exp(-uK.z*1.5);p+=vec2(-dc.y,dc.x)/(rc+.05)*w*.5;}",
+    " vec2 p=uv*1.6;float t=uT;float cl=0.;",
+    " vec2 d=uv-uM;float r=length(d);float f=exp(-r*r/(.42*.42))*uMs;", // raio e força do mouse
+    " p+=vec2(-d.y,d.x)*f*2.6+d*f*.9;",
+    " if(uK.z>=0.){vec2 dc=uv-uK.xy;float rc=length(dc);float w=exp(-pow((rc-uK.z*.6)*5.,2.))*exp(-uK.z*1.2);p+=vec2(-dc.y,dc.x)/(rc+.05)*w*1.3;cl=w;}",
     " vec2 q=vec2(fbm(p*.9+vec2(0.,-t)),fbm(p*.9+vec2(5.2,1.3-t)));",
     " float ph=p.x*5.5+(q.x-.5)*uTurb*5.+(fbm(vec2(p.x*.6,p.y*.35-t))-.5)*1.8;",
     " float dl=abs(fract(ph)-.5);",
     " float core=1.-smoothstep(0.,.045,dl);float halo=exp(-dl*9.)*.35;",
-    " float flow=.22+.78*smoothstep(.3,.8,fbm(vec2(p.x*1.1,p.y*.55-t*1.6)));",
+    " float flow=.22+.78*smoothstep(.3,.8,fbm(vec2(p.x*1.1,p.y*.55-t*1.6)));flow=max(flow,max(f*.95,cl*.9));",
     " float rim=smoothstep(.2,.5,dl)*(1.-smoothstep(.5,.5,dl))*.0;",
     " float sh=.75+.25*sin(ph*3.+t*6.)*n(p*4.+t);",
-    " float I=(core+halo)*flow*sh+rim;",
+    " float I=(core+halo)*flow*sh*(1.+f*1.8+cl*1.4)+rim;",
     " vec3 c=mix(mix(uC0,uC1,smoothstep(.2,.8,fbm(p*.5+t))),uC2,smoothstep(.65,1.,sin(ph*.2+t)*.5+.5));",
     " float m=smoothstep(0.,.18,uv.y)*smoothstep(0.,.22,1.-uv.y);",
     " float a=clamp(I*m,0.,1.);",
@@ -91,7 +91,7 @@
     if (reduz) t = 4 + i.off; else t = (agora / 1000 + i.off) * i.pre.v;
     var dentro = !reduz && ptr.x >= r.left && ptr.x <= r.right && ptr.y >= r.top && ptr.y <= r.bottom;
     i.ms += ((dentro ? 1 : 0) - i.ms) * 0.08;
-    if (dentro) { var tx = (ptr.x - r.left) / r.height, ty = (ptr.y - r.top) / r.height; i.mx += (tx - i.mx) * 0.2; i.my += (ty - i.my) * 0.2; }
+    if (dentro) { var tx = (ptr.x - r.left) / r.height, ty = (ptr.y - r.top) / r.height; i.mx += (tx - i.mx) * 0.35; i.my += (ty - i.my) * 0.35; }
     var age = -1;
     if (i.click) { age = (agora - i.click) / 1000; if (age > 2.4) { i.click = null; age = -1; } }
     gl.uniform2f(U.uR, i.w, i.h); gl.uniform2f(U.uM, i.mx, i.my); gl.uniform3f(U.uK, i.kx || 0, i.ky || 0, age);
