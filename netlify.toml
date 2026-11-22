@@ -5,4 +5,4 @@
   command = "npm ci && npm run build:catalog && npm test"
 
 [build.environment]
-  NODE_VERSION = "20"
+  NODE_VERSION = "22"

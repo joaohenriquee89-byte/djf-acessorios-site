@@ -4,7 +4,7 @@
   "private": true,
   "description": "Site oficial DJF Acessórios (loja e vitrine de acessórios para celular)",
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "scripts": {
     "build:catalog": "node scripts/build-catalog.mjs",

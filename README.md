@@ -51,7 +51,7 @@ npm test          # testes automáticos
 npm run serve     # http://localhost:8080 (com os mesmos cabeçalhos de segurança da produção)
 ```
 
-Requer Node 20 ou mais novo.
+Requer Node 22 ou mais novo.
 
 ## Mais informações
 
