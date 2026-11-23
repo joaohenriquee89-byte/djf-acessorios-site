@@ -22,7 +22,7 @@ const emPromo=p=>p.promo>0&&p.promo<p.p&&(!p.ate||p.ate>=hoje());
 const pv=p=>emPromo(p)?p.promo:p.p;
 const esgot=p=>p.est===0,poucas=p=>p.est>0&&p.est<=3;
 const im=p=>IMG[p.id]||IMG[p.im]||null;
-const SUBS={peliculas:{vidro:"Vidro",ceramica:"Cerâmica",hidrogel:"Hidrogel",privacidade:"Privacidade"},capinhas:{premium:"Premium",exclusiva:"Design exclusivo",carbono:"Fibra de carbono",couro:"Couro premium",magsafe:"Compatíveis com MagSafe"},eletronicos:{tradicional:"Tradicional",magsafe:"MagSafe Premium"},fones:{semfio:"Sem fio",comfio:"Com fio",p2:"P2"},outros:{caixas:"Caixas de som Bluetooth",adaptadores:"Adaptadores",veiculares:"Carregadores veiculares",tecnologicos:"Acessórios tecnológicos"}};
+const SUBS={peliculas:{vidro:"Vidro",ceramica:"Cerâmica",hidrogel:"Hidrogel",privacidade:"Privacidade"},capinhas:{premium:"Premium",exclusiva:"Design exclusivo",carbono:"Fibra de carbono",couro:"Couro premium",magsafe:"Compatíveis com MagSafe"},eletronicos:{tradicional:"Tradicional",magsafe:"MagSafe Premium"},fones:{semfio:"Sem fio",comfio:"Com fio"},outros:{caixas:"Caixas de som Bluetooth",adaptadores:"Adaptadores",veiculares:"Carregadores veiculares",tecnologicos:"Acessórios tecnológicos"}};
 const subLabel=p=>(SUBS[p.c]&&SUBS[p.c][p.s])||"";
 const tagOf=p=>emPromo(p)?"Promoção":esgot(p)?"Indisponível":poucas(p)?"Últimas unidades":p.dest?"Premium":p.ent?"Para começar":p.novo?"Novo":(p.t||"");
 const faixa=l=>{const v=l.map(pv);return v.length?[Math.min(...v),Math.max(...v)]:null};
