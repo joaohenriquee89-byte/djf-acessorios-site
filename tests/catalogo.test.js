@@ -6,7 +6,7 @@ vm.runInContext(ler("js/catalog.js") + "\n" + ler("js/catalog-data.js"), ctx);
 const g = (c) => vm.runInContext(c, ctx);
 const P = g("P"), C = g("C"), SUBS = g("SUBS"), SEO = g("SEO");
 
-t("13 categorias e 63+ produtos", () => { igual(Object.keys(C).length, 13); verdade(P.length >= 63); });
+t("13 categorias e 70+ produtos", () => { igual(Object.keys(C).length, 13); verdade(P.length >= 70); });
 t("ids únicos e válidos", () => { igual(new Set(P.map((p) => p.id)).size, P.length); for (const p of P) verdade(/^[a-z0-9-]+$/.test(p.id), p.id); });
 t("categoria e linha de cada produto existem", () => { for (const p of P) { verdade(C[p.c], p.id + " categoria"); if (p.s) verdade(SUBS[p.c] && SUBS[p.c][p.s], p.id + " linha"); } });
 t("preços válidos e textos sem HTML", () => { for (const p of P) { verdade(p.p > 0, p.id + " preço"); verdade(!/[<>]/.test(p.n + p.d), p.id + " html"); } });

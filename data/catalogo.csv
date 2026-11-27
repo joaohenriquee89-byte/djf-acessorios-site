@@ -44,6 +44,12 @@ watch-series;smartwatches;;Smartwatch DJF Series;449,9;;sim;;;;;;;;Modelo circul
 pb-35;eletronicos;tradicional;Power Bank A’GOLD Turbo 10.000 mAh;199,9;;;;;;;;;;Power bank de 10.000 mAh com Turbo 22,5 W PD, display digital e cabo integrado.
 pb-17;eletronicos;tradicional;Power Bank A’GOLD Pro 10.000 mAh com 4 cabos;249,9;;;;;;;;;;Power bank de 10.000 mAh com carregamento sem fio e 4 cabos integrados.
 pb-magsafe;eletronicos;magsafe;Power Bank MagSafe Premium;399,9;;sim;;;;;;;;Power bank magnético compatível com MagSafe, da linha premium.
+pb-agold-225;eletronicos;tradicional;Power Bank A’GOLD 22,5 W Compacto;199,9;sim;;;sim;;;;;;Power bank compacto A’GOLD com carregamento rápido de 22,5 W.
+pb-kaidi;eletronicos;tradicional;Power Bank KAIDI com Display Digital;199,9;sim;;;sim;;;;;;Power bank KAIDI de corpo compacto, com display digital que mostra a tensão de saída.
+pb-agold-pro-sf;eletronicos;tradicional;Power Bank A’GOLD Pro com Carregador Sem Fio;199,9;sim;;;sim;;;;;;Power bank A’GOLD Pro com área de carregamento sem fio de 10 W e indicador digital de bateria.
+pb-agold-display;eletronicos;tradicional;Power Bank A’GOLD com Display de Bateria;199,9;sim;;;sim;;;;;;Power bank A’GOLD com display que indica a carga restante em 25%, 50% e 75%.
+pb-agold-10k-inducao;eletronicos;tradicional;Power Bank A’GOLD 10.000 mAh por Indução;199,9;sim;;;sim;;;;;;Power bank ultrafino de 10.000 mAh, com carregamento por indução, saída de 22,5 W e PD 3.0.
+pb-hmaston-225;eletronicos;tradicional;Power Bank H’MASTON 22,5 W Super Fast Charging;199,9;sim;;;sim;;;;;;Power bank H’MASTON com carregamento super rápido de 22,5 W e display digital de bateria, tensão e potência.
 fone-b06b;fones;semfio;Fone Bluetooth A’GOLD Plus FN-B06B;79,9;;;sim;;;;;;;Fone de ouvido sem fio com Bluetooth 5.4, som HiFi e estojo com display digital.
 fone-bt4;fones;semfio;Fone Bluetooth A’GOLD Pro FN-BT4;99,9;;;;;;;;;Bluetooth 5.4;Fone de ouvido sem fio com Bluetooth 5.4, som HiFi e controle por toque.
 fone-ba5;fones;semfio;Fone Bluetooth A’GOLD Plus FN-BA5;129,9;;;;;;;;;;Fone de ouvido sem fio com estojo carregador e cordão.
@@ -62,3 +68,4 @@ ger-teclado;teclados;;Teclado Bluetooth;199,9;sim;;;;;;;;;Teclado sem fio Blueto
 hub-usb;hub;;Super Hub USB com 4 portas USB 3.0;99,9;;;;;;;;;;Hub USB com 4 portas USB 3.0 para ligar vários aparelhos de uma vez.
 carr-veic;outros;veiculares;Kit Carregador Veicular A’GOLD Turbo PD 60W;99,9;;;;;;;;;60 W;Carregador veicular Turbo PD de 60 W com exibição de LED e cabo incluso.
 ger-capacete;outros;tecnologicos;Fone de Capacete Bluetooth A’GOLD MCF-36;149,9;;;;;;;;;IPX4;Fone de ouvido bluetooth para capacete, com resistência a água IPX4 e assistente de voz.
+baba-cam01;outros;tecnologicos;Babá Eletrônica CAM-01;299,9;sim;;;sim;;;;;;Babá eletrônica com câmera e monitor portátil de tela colorida para acompanhar o bebê de outro cômodo.
